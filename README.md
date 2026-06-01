@@ -610,23 +610,23 @@ The following screenshots demonstrate the lab setup, attack simulation, Splunk s
 ### Splunk UFW Block Search
 ![Splunk UFW Block Search](screenshots/splunk-ufw-block-search.png)
 
-### Splunk Dashboard Overview
+### Splunk Dashboard Overview (Part 1)
 ![Splunk Dashboard Top](screenshots/splunk-dashboard-top.png)
 
-### Splunk Dashboard Detection Panels
+### Splunk Dashboard Overview (Part 2)
 ![Splunk Dashboard Middle](screenshots/splunk-dashboard-middle.png)
 
-### Splunk Scanned Ports Panel
+### Splunk Dashboard Overview (Part 3)
 ![Splunk Dashboard Bottom](screenshots/splunk-dashboard-bottom.png)
+
+### Alerts List
+![Alerts List](screenshots/alerts-list.png)
 
 ### SSH Brute Force Alert
 ![SSH Brute Force Alert](screenshots/ssh-bruteforce-alert.png)
 
 ### Nmap Port Scan Alert
 ![Nmap Port Scan Alert](screenshots/nmap-portscan-alert.png)
-
-### Alerts List
-![Alerts List](screenshots/alerts-list.png)
 
 ---
 
