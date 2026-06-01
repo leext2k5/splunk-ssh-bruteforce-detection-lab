@@ -1,6 +1,3 @@
-# splunk-ssh-bruteforce-detection-lab
-SOC home lab using Splunk, Kali Linux, Ubuntu Server, Nmap, and SSH brute-force simulation to detect suspicious authentication activity.
-
 # SOC Home Lab: SSH Brute Force and Nmap Port Scan Detection with Splunk
 
 ## 1. Project Overview
@@ -599,38 +596,37 @@ Splunk successfully ingested these logs into the `soc_lab` index and was able to
 
 ## 14. Screenshots
 
-Recommended screenshot files for this repository:
+The following screenshots demonstrate the lab setup, attack simulation, Splunk searches, dashboard, and alerts.
 
-```text
-screenshots/nmap-scan-result.png
-screenshots/victim-auth-log.png
-screenshots/splunk-failed-password-search.png
-screenshots/splunk-ufw-block-search.png
-screenshots/splunk-dashboard-top.png
-screenshots/splunk-dashboard-middle.png
-screenshots/splunk-dashboard-bottom.png
-screenshots/ssh-bruteforce-alert.png
-screenshots/nmap-portscan-alert.png
-screenshots/alerts-list.png
-```
-
-Example Markdown image links:
-
-```markdown
+### Nmap Scan Result
 ![Nmap Scan Result](screenshots/nmap-scan-result.png)
 
+### Victim Authentication and Firewall Logs
 ![Victim Auth Log](screenshots/victim-auth-log.png)
 
+### Splunk Failed Password Search
 ![Splunk Failed Password Search](screenshots/splunk-failed-password-search.png)
 
+### Splunk UFW Block Search
 ![Splunk UFW Block Search](screenshots/splunk-ufw-block-search.png)
 
-![Splunk Dashboard](screenshots/splunk-dashboard-top.png)
+### Splunk Dashboard Overview
+![Splunk Dashboard Top](screenshots/splunk-dashboard-top.png)
 
+### Splunk Dashboard Detection Panels
+![Splunk Dashboard Middle](screenshots/splunk-dashboard-middle.png)
+
+### Splunk Scanned Ports Panel
+![Splunk Dashboard Bottom](screenshots/splunk-dashboard-bottom.png)
+
+### SSH Brute Force Alert
 ![SSH Brute Force Alert](screenshots/ssh-bruteforce-alert.png)
 
+### Nmap Port Scan Alert
 ![Nmap Port Scan Alert](screenshots/nmap-portscan-alert.png)
-```
+
+### Alerts List
+![Alerts List](screenshots/alerts-list.png)
 
 ---
 
